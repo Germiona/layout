@@ -1,0 +1,158 @@
+ /* footer  */
+
+ .footer {
+  width: 1920px;
+  height: 545px;
+  margin: auto;
+  background: #000;
+
+  padding-top: 119px;
+  padding-left: 100px;
+  padding-right: 100px;
+ }
+
+ .footer li:hover {
+  color: #D9D9D9;
+  cursor: pointer;
+
+  position: relative;
+  top: 1px;
+ }
+
+ .active {
+  color: #D9D9D9;
+ }
+
+ .footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__col__title {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer__col__title h2 {
+  width: 192px;
+  height: 52px;
+
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.footer__col__title p {
+  width: 415px;
+
+  color: #8E8E8E;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 0.48px;
+}
+
+.wrap__socset {
+  display: flex;
+  gap: 14px;
+}
+
+.relative__in {
+  position: relative;
+  width: 52px;
+  height: 52px;
+}
+
+.in {
+  position: absolute;
+  top: 6px;
+  left: 16px;
+  transform: translate(-50% -50/%);
+
+  width: 23px;
+  height: 28px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 0.48px;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+
+  width: 890px;
+  height: 273px;
+  
+  gap: 188px;
+  
+}
+
+.footer__col__contact ul  {
+  color: #8E8E8E;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 0.48px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer__col__Link ul {
+  color: #7A7A7A;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 0.48px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer__col__Legal ul  {
+  color: #787878;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  letter-spacing: 0.48px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

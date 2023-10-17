@@ -1,0 +1,109 @@
+/*  Фаворит молодых
+    Young’s Favourite */
+
+    .youngs__favourite {
+        margin-bottom: 30px;
+    }
+
+    .youngs__favourite__title {
+        width: 513px;
+        height: 50px;
+        margin-bottom: 118px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .youngs__favourite__title::before {
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        content: url(./public/images/vector-9.svg);
+        width: 190px;
+        height: 31.955px;
+        z-index: -1;
+    }
+
+    .youngs__favourite__title h2 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 50px; /* 104.167% */
+        letter-spacing: 2.88px;
+    }
+    .youngs__favourite__row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .youngs__favourite__card {
+    }
+
+    .youngs__favourite__card img {
+        width: 834px;
+        height: 575px;
+        transition: scale .2s ease-in;
+    }
+
+    .youngs__favourite__card img:hover {
+        scale: 1.01;
+
+    }
+
+    .youngs__favourite__card h3 {
+        padding-top: 28px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px; /* 156.25% */
+        letter-spacing: -1.28px;
+    }
+
+    .youngs__favourite__card p {
+        color: #7F7F7F;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px; /* 208.333% */
+        letter-spacing: -0.96px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,159 @@
+/* Header Content */
+
+.header__content {  
+  width: 1720px;
+  height: 852px;
+}
+.header__content__wrapper {
+  width: 1720px;
+  height: 852px;
+  border-radius: 59px;
+  background: #F4F6F5;
+
+  padding-top: 77px;
+  padding-left: 119px;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  width: 474px;
+  height: 473px;
+  position: relative;
+  z-index: 10;
+}
+
+.header__title::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 242px;
+  right: 25px;
+  transform: rotate(-2deg);
+  display: block;
+  width: 468px;
+  height: 110px;
+  background-color: #EBD96B;
+}
+.header__title::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  right: 75px;
+  transform: rotate(-2deg);
+  display: block;
+  width: 423px;
+  height: 110px;
+  background-color: #FFF;
+}
+
+.header__title h1 {
+  color: #000;
+  /* font-family: Poppins; */
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%; /* 125% */
+}
+
+.header__text {
+  color: #191818;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.6px;
+
+  width: 606px;
+  height: 58px;
+  
+  padding-top:40px;
+  margin-bottom: 46px; 
+}
+
+.header__btn {
+  height: 82px;
+  padding-top: 32px;
+}
+
+.header__btn a:active {
+  position: relative;
+  top: 1px;
+}
+
+.header__btn svg {
+  margin-right: 34px;
+  padding-left: 6px;
+}
+.header__btn a {
+
+  color: #FFF;
+  padding: 19px 40px 18px 41px;
+
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.5px;
+
+  border-radius: 10px;
+  background: #000;
+}
+
+.header__img {
+  /* padding-top: 68px; */
+  margin-top: -10px;
+  padding-right: 81px;
+  width: 871px;
+  height: 784px;
+
+  position: relative;
+}
+
+.header__img img {
+  height: 784px;
+}
+
+.psevdo__left::after {
+  content: url(./public/images/star-11.svg);
+  width: 58px;
+  height: 56px;
+
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+.psevdo__left::before {
+  content: url(./public/images/star-11.svg);
+  width: 58px;
+  height: 56px;
+
+  position: absolute;
+  bottom: 23px;
+  left: 33px;
+}
+
+.psevdo__right::after {
+  content: url(./public/images/star-11.svg);
+  width: 58px;
+  height: 56px;
+  position: absolute;
+  top: 36px;
+  right: 200px;
+}
+
+.psevdo__right::before {
+  content: url(./public/images/star-11.svg);
+  width: 58px;
+  height: 56px;
+  position: absolute;
+  bottom: 83px;
+  right: 91px;
+}

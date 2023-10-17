@@ -1,0 +1,92 @@
+/* ПРИСОЕДИНЯЙТЕСЬ К ПОКУПОЧНОМУ СООБЩЕСТВУ, ЧТОБЫ ПОЛУЧАТЬ ЕЖЕМЕСЯЧНУЮ АКЦИЮ
+   JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO */
+
+   
+   .community {
+      width: 1920px;
+      height: 623px;
+      background: #E5C643;
+      margin: auto;
+      padding: 141px 476px;
+
+      display: flex;
+      flex-direction: column;
+   }
+   .community__title {
+      width: 966px;
+      height: 124px;
+      margin-bottom: 37px;
+   }
+   .community__title h2 {
+      color: #FFF;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 55px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 70px; /* 127.273% */
+      letter-spacing: 1.65px;
+   }
+   .community__text {
+      width: 1010px;
+      height: 29px;
+      margin-bottom: 49px;
+   }
+   .community__text h3  {
+      color: #FFFCF8;
+      font-family: Poppins;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35px; /* 109.375% */
+      letter-spacing: 0.96px;
+   }
+   .community__form {
+      width: 574px;
+      height: 87px;
+
+      border-radius: 10px;
+      background: #FFF;
+
+      margin: auto;
+      padding: 10px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .community__form__input {
+      /* padding: 27px 107px 35px 27px; */
+      padding-left: 17px;
+      width: 290px;
+      height: 25px;
+
+      color: #767676;
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35px; /* 145.833% */
+      letter-spacing: 0.72px;
+   }
+   .community__form__btn {
+      width: 161px;
+      height: 67px;
+
+      border-radius: 8px;
+      background: #000;
+
+      color: #FFF;
+      font-family: Poppins;
+      font-size: 33px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 35px; /* 106.061% */
+      letter-spacing: 0.99px;
+      text-transform: capitalize;
+   }
+
+   .community__form__btn:hover {
+      width: 163px;
+      height: 69px;
+   }

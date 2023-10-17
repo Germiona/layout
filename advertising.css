@@ -1,0 +1,27 @@
+
+/* реклама */
+
+.advertising {}
+
+.advertising ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 121px;
+  width: 1920px;
+  height: 186px;
+  background-color: #EBD96B;
+  margin: auto;
+  padding: 0 171px;
+}
+
+/* .zzzz {
+  width: 150px;
+  height: 52.672px;
+  background-color: #EBD96B;
+ } */
+
+ .advertising-top {
+  position: relative;
+  top: -8px;
+ }

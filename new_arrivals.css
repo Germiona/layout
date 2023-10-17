@@ -1,0 +1,65 @@
+
+ /* new arrivals */
+ .arrivals {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 69px;
+  padding-bottom: 150px;
+}
+.arrivals__title {
+  width: 405px;
+  height: 41px;
+
+  margin-bottom: 118px;
+}
+.arrivals__title h2 {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50px; 104.167%
+  letter-spacing: 2.88px;
+}
+.arrivals__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrivals__cardd {}
+.arrivals__cardd img {
+  transition: scale .2s ease-in;
+}
+
+.arrivals__cardd img:hover {
+  scale: 1.01;
+}
+
+.arrivals__cardd h3 {
+  position: relative;
+  color: #191919;
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 156.25% */
+  letter-spacing: -1.28px;
+}
+
+.arrivals__cardd h3::after {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  content: url(./public/images/arrow-2.svg);
+
+}
+
+.arrivals__cardd p {
+  color: #7F7F7F;
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 208.333% */
+  letter-spacing: -0.96px;
+}
+
